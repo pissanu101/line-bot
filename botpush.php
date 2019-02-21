@@ -22,8 +22,7 @@ if ($_REQUEST["submit"] == "Send Data" && $_REQUEST["submit"] != "") {
 // echo "ส่งข้อมูลเรียบร้อยจ้า...";
 ?>
 <form class='form-horizontal' id="myform1" action=""
-	method="post" name="frmMain" enctype="multipart/form-data">
-	<input id="latlng" name="latlng" type="hidden" value=""> <input
+	method="post" name="frmMain" enctype="multipart/form-data"><input
 		id="input" name="input" type="text" value=""> <input type="button"
 		name="submit" id="submit" value="Send Data">
 </form>
