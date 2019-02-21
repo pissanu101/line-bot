@@ -14,7 +14,7 @@ if ($_REQUEST["submit"] == "Send Data" && $_REQUEST["submit"] != "") {
         'channelSecret' => $channelSecret
     ]);
     
-    $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder($input_text);
+    $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('Hellow world');
     $response = $bot->pushMessage($pushID, $textMessageBuilder);
 }
 
