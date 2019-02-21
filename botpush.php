@@ -5,7 +5,7 @@ $access_token = 'dkovOt+zHrAVARtFYkJbfBI9uIFEDHg5Dyv44WXmsYlqu+dULj2vf5snhyKl7d/
 $channelSecret = '9b51168ef28e112e5b2eaaf15a24346b';
 $pushID = 'U0c4dd7723b2b4e2702b023cd6adf1958';
 
-if ($_REQUEST["submit"] == "Send Data") {
+if ($_REQUEST["submit"] == "Send Data" && $_REQUEST["submit"] != "") {
     
     $input_text = $_REQUEST['input'];
     
