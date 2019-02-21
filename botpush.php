@@ -21,7 +21,7 @@ if ($_REQUEST["submit"] == "Send Data" && $_REQUEST["submit"] != "") {
 // echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 // echo "ส่งข้อมูลเรียบร้อยจ้า...";
 ?>
-<form class='form-horizontal' id="myform1" action="view_map.php"
+<form class='form-horizontal' id="myform1" action=""
 	method="post" name="frmMain" enctype="multipart/form-data">
 	<input id="latlng" name="latlng" type="hidden" value=""> <input
 		id="input" name="input" type="text" value=""> <input type="button"
