@@ -21,11 +21,16 @@ if ($_REQUEST[submit] == "Send Data" && $_REQUEST[submit] != "") {
 // echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 // echo "ส่งข้อมูลเรียบร้อยจ้า...";
 ?>
+<br>
+<br>
+<Br>
+<center>
 <form class='form-horizontal' id="myform1" action=""
 	method="post" name="frmMain" enctype="multipart/form-data"><input
 		id="input" name="input" type="text" value=""> <input type="submit"
 		name="submit" id="submit" value="Send Data">
 </form>
+	</center>
 
 
 
